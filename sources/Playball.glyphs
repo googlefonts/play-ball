@@ -350,7 +350,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature init;\012feature isol;\012feature onum;\012feature ordn;\012feature ss01;\012feature ss02;\012feature ss03;\012feature swsh;\012feature titl;\012feature sups;\012feature frac;\012";
+code = "feature init;\012feature isol;\012feature onum;\012feature ordn;\012feature ss01;\012feature ss02;\012feature swsh;\012feature sups;\012feature frac;\012";
 name = aalt;
 },
 {
@@ -380,24 +380,16 @@ code = "sub dollar by dollar.onum;\012sub parenleft by parenleft.onum;\012sub pa
 name = ordn;
 },
 {
-code = "sub A by A.script;\012sub B by B.script;\012sub C by C.script;\012sub D by D.script;\012sub E by E.script;\012sub F by F.script;\012sub G by G.script;\012sub H by H.script;\012sub I by I.script;\012sub J by J.script;\012sub K by K.script;\012sub L by L.script;\012sub M by M.script;\012sub N by N.script;\012sub O by O.script;\012sub P by P.script;\012sub Q by Q.script;\012sub R by R.script;\012sub S by S.script;\012sub T by T.script;\012sub U by U.script;\012sub V by V.script;\012sub W by W.script;\012sub X by X.script;\012sub Y by Y.script;\012sub Z by Z.script;\012sub a by a;\012sub b by b;\012sub c by c;\012sub d by d;\012sub e by e;\012sub f by f;\012sub g by g;\012sub h by h;\012sub i by i;\012sub j by j;\012sub k by k;\012sub l by l;\012sub m by m;\012sub n by n;\012sub o by o;\012sub p by p;\012sub q by q;\012sub r by r;\012sub s by s;\012sub t by t;\012sub u by u;\012sub v by v;\012sub w by w;\012sub x by x;\012sub y by y;\012sub z by z;\012";
+code = "sub A by A.swash;\012sub B by B.swash;\012sub C by C.swash;\012sub D by D.swash;\012sub E by E.swash;\012sub F by F.swash;\012sub G by G.swash;\012sub H by H.swash;\012sub I by I.swash;\012sub J by J.swash;\012sub K by K.swash;\012sub L by L.swash;\012sub M by M.swash;\012sub N by N.swash;\012sub O by O.swash;\012sub P by P.swash;\012sub Q by Q.swash;\012sub R by R.swash;\012sub S by S.swash;\012sub T by T.swash;\012sub U by U.swash;\012sub V by V.swash;\012sub W by W.swash;\012sub X by X.swash;\012sub Y by Y.swash;\012sub Z by Z.swash;\012sub a by a;\012sub b by b;\012sub c by c;\012sub d by d;\012sub e by e;\012sub f by f;\012sub g by g;\012sub h by h;\012sub i by i;\012sub j by j;\012sub k by k;\012sub l by l;\012sub m by m;\012sub n by n;\012sub o by o;\012sub p by p;\012sub q by q;\012sub r by r;\012sub s by s;\012sub t by t;\012sub u by u;\012sub v by v;\012sub w by w;\012sub x by x;\012sub y by y;\012sub z by z;\012";
 name = ss01;
 },
 {
-code = "sub A by A.swash;\012sub B by B.swash;\012sub C by C.swash;\012sub D by D.swash;\012sub E by E.swash;\012sub F by F.swash;\012sub G by G.swash;\012sub H by H.swash;\012sub I by I.swash;\012sub J by J.swash;\012sub K by K.swash;\012sub L by L.swash;\012sub M by M.swash;\012sub N by N.swash;\012sub O by O.swash;\012sub P by P.swash;\012sub Q by Q.swash;\012sub R by R.swash;\012sub S by S.swash;\012sub T by T.swash;\012sub U by U.swash;\012sub V by V.swash;\012sub W by W.swash;\012sub X by X.swash;\012sub Y by Y.swash;\012sub Z by Z.swash;\012sub a by a;\012sub b by b;\012sub c by c;\012sub d by d;\012sub e by e;\012sub f by f;\012sub g by g;\012sub h by h;\012sub i by i;\012sub j by j;\012sub k by k;\012sub l by l;\012sub m by m;\012sub n by n;\012sub o by o;\012sub p by p;\012sub q by q;\012sub r by r;\012sub s by s;\012sub t by t;\012sub u by u;\012sub v by v;\012sub w by w;\012sub x by x;\012sub y by y;\012sub z by z;\012";
-name = ss02;
-},
-{
 code = "sub A by A;\012sub B by B;\012sub C by C;\012sub D by D;\012sub E by E;\012sub F by F;\012sub G by G;\012sub H by H;\012sub I by I;\012sub J by J;\012sub K by K;\012sub L by L;\012sub M by M;\012sub N by N;\012sub O by O;\012sub P by P;\012sub Q by Q;\012sub R by R;\012sub S by S;\012sub T by T;\012sub U by U;\012sub V by V;\012sub W by W;\012sub X by X;\012sub Y by Y;\012sub Z by Z;\012sub a by a.sans;\012sub b by b.sans;\012sub c by c.sans;\012sub d by d.sans;\012sub e by e.sans;\012sub f by f.sans;\012sub g by g.sans;\012sub h by h.sans;\012sub i by i.sans;\012sub j by j.sans;\012sub k by k.sans;\012sub l by l.sans;\012sub m by m.sans;\012sub n by n.sans;\012sub o by o.sans;\012sub p by p.sans;\012sub q by q.sans;\012sub r by r.sans;\012sub s by s.sans;\012sub t by t.sans;\012sub u by u.sans;\012sub v by v.sans;\012sub w by w.sans;\012sub x by x.sans;\012sub y by y.sans;\012sub z by z.sans;\012";
-name = ss03;
+name = ss02;
 },
 {
 code = "sub b by b.swash;\012sub d by d.swash;\012sub g by g.swash;\012sub h by h.swash;\012sub k by k.swash;\012sub l by l.swash;\012sub p by p.swash;\012sub t by t.swash;\012sub y by y.swash.1;\012";
 name = swsh;
-},
-{
-code = "sub A by A.script;\012sub B by B.script;\012sub C by C.script;\012sub D by D.script;\012sub E by E.script;\012sub F by F.script;\012sub G by G.script;\012sub H by H.script;\012sub I by I.script;\012sub J by J.script;\012sub K by K.script;\012sub L by L.script;\012sub M by M.script;\012sub N by N.script;\012sub O by O.script;\012sub P by P.script;\012sub Q by Q.script;\012sub R by R.script;\012sub S by S.script;\012sub T by T.script;\012sub U by U.script;\012sub V by V.script;\012sub W by W.script;\012sub X by X.script;\012sub Y by Y.script;\012sub Z by Z.script;\012sub a by a.sans;\012sub b by b.sans;\012sub c by c.sans;\012sub d by d.sans;\012sub e by e.sans;\012sub f by f.sans;\012sub g by g.sans;\012sub h by h.sans;\012sub i by i.sans;\012sub j by j.sans;\012sub k by k.sans;\012sub l by l.sans;\012sub m by m.sans;\012sub n by n.sans;\012sub o by o.sans;\012sub p by p.sans;\012sub q by q.sans;\012sub r by r.sans;\012sub s by s.sans;\012sub t by t.sans;\012sub u by u.sans;\012sub v by v.sans;\012sub w by w.sans;\012sub x by x.sans;\012sub y by y.sans;\012sub z by z.sans;\012";
-name = titl;
 },
 {
 automatic = 1;
