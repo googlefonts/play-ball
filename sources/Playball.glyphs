@@ -5,7 +5,7 @@ A,
 "Æ",
 "/acircumflexacute"
 );
-copyright = "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)";
+copyright = "Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)";
 customParameters = (
 {
 name = licenseURL;
